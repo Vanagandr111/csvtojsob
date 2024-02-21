@@ -9,6 +9,9 @@ public class Employee implements Serializable {
     public String country;
     public int age;
 
+    // Пустой конструктор
+    public Employee() {
+    }
 
     public Employee(long id, String firstName, String lastName, String country, int age) {
         this.id = id;
